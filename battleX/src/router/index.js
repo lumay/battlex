@@ -16,7 +16,7 @@ export default new Router({
     {
       path: '/jeu',
       name: 'BattleX',
-      component: app
+      component: battlex
     }
   ]
 })
