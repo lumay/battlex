@@ -1,7 +1,9 @@
 <template>
   <div>
-salut c'est moi mel
+    salut c'est moi
+    <canvas id="canvas" width="600" height="500"> </canvas>
   </div>
+
 </template>
 
 <script>
@@ -12,7 +14,7 @@ export default {
       msg: 'Welcome to Your Vue.js App'
     }
   },
-  methods(){
+  methods:{
 
   },
   mounted () {
@@ -1331,5 +1333,20 @@ li {
 
 a {
   color: #42b983;
+}
+
+
+canvas{
+  display:block;
+  margin:auto;
+  background:#F2F2F2;
+  box-shadow:0 2px 3px rgba(0,0,0,0.1);
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -o-user-select:none;
+  user-select:none;
 }
 </style>
